@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos-base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/secao-ebook.css">
     <title>Página para captação de leads</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <a href="#">
+            <img src="imagens/logo.png" alt="Logotipo da empresa">
+        </a>
+    </header>
+    <section class="secao-ebook">
+        <img src="imagens/teste2_cricao_ebook.jpg" class="secao-ebook__img-ebook" alt="Imagem do e-book">
+        <div class="secao-ebook__div-com-formulario">
+            <h2 class="secao-ebook__div-com-formulario__texto">
+                Preencha os dados abaixo para receber o e-book
+            </h2>
+            <form action="#" method="#" class="secao-ebook__div-com-formulario__form">
+                <div class="secao-ebook__div-com-formulario__form__grupo-form">
+                    <label for="nome">
+                        Nome*
+                    </label>
+                    <input type="text" id="nome" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu nome">
+                </div>
+                <div class="secao-ebook__div-com-formulario__form__grupo-form">
+                    <label for="email">
+                        E-mail*
+                    </label>
+                    <input type="email" id="email" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu e-mail">
+                </div>
+                <div class="secao-ebook__div-com-formulario__form__grupo-form">
+                    <label for="telefone">
+                        Telefone*
+                    </label>
+                    <input type="tel" id="telefone" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu telefone">
+                </div>
+                <button type="submit" class="secao-ebook__div-com-formulario__btn-receber-ebook">
+                    Receber e-book
+                </button>
+            </form>
+        </div>
+    </section>
+    <script src="js/animacao-form-img.js"></script>
 </body>
 </html>

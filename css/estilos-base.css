@@ -1,0 +1,14 @@
+/*
+fonte para os títulos -> font-family: 'PT Serif', serif;
+*/
+:root {
+    --cor-fundo: #ecf0f1;
+    --cinza-escuro: #1e272e;
+    --cor-titulo: #34e7e4;
+    --cor-borda-botao: #00d8d6;
+    --cinza-intermediario: #808e9b;
+}
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: var(--cor-fundo);
+}

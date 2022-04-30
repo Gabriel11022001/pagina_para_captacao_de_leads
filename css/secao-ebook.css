@@ -1,0 +1,83 @@
+.secao-ebook {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--cinza-escuro);
+    padding: 40px 50px 60px 50px;
+    box-sizing: border-box;
+}
+.secao-ebook__img-ebook {
+    width: 250px;
+    box-shadow: 0 0 15px 0 black;
+}
+.secao-ebook__div-com-formulario {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 25px;
+    box-shadow: 0 0 15px 0 black;
+}
+.secao-ebook__div-com-formulario__texto {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.secao-ebook__div-com-formulario__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.secao-ebook__div-com-formulario__form__grupo-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.secao-ebook__div-com-formulario__form__grupo-form label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.secao-ebook__div-com-formulario__form__grupo-form__campo {
+    box-sizing: border-box;
+    padding: 10px 8px;
+    outline: none;
+    border: solid 2px var(--cinza-intermediario);
+    transition: all 0.4s ease;
+    font-size: 18px;
+}
+.secao-ebook__div-com-formulario__form__grupo-form__campo:focus {
+    border-color: var(--cor-borda-botao);
+}
+.secao-ebook__div-com-formulario__btn-receber-ebook {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    background-color: var(--cor-titulo);
+    font-weight: bold;
+    border: solid 3px var(--cor-borda-botao);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.secao-ebook__div-com-formulario__btn-receber-ebook:hover {
+    background-color: var(--cor-borda-botao);
+}
+.secao-ebook__img-ebook.ativo {
+    transform: translateX(0);
+}
+.secao-ebook__div-com-formulario.ativo {
+    transform: translateX(0);
+}
+@media only screen and (max-width: 500px) {
+    .secao-ebook {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .secao-ebook__img-ebook {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .secao-ebook__div-com-formulario {
+        width: 80%;
+    }
+}
