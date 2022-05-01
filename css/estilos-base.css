@@ -7,8 +7,30 @@ fonte para os títulos -> font-family: 'PT Serif', serif;
     --cor-titulo: #34e7e4;
     --cor-borda-botao: #00d8d6;
     --cinza-intermediario: #808e9b;
+    --verde: #2ecc71;
+    --vermelho: #e74c3c;
 }
 body {
     font-family: 'Radio Canada', sans-serif;
     background-color: var(--cor-fundo);
+}
+.campo-valido {
+    border: solid 2px var(--verde);
+    box-sizing: border-box;
+    padding: 10px 8px;
+    outline: none;
+    transition: all 0.4s ease;
+    font-size: 18px;
+}
+.campo-invalido {
+    border: solid 2px var(--vermelho);
+    box-sizing: border-box;
+    padding: 10px 8px;
+    outline: none;
+    transition: all 0.4s ease;
+    font-size: 18px;
+}
+.feedback-campo-nome, .feedback-campo-email, .feedback-campo-telefone {
+    color: var(--vermelho);
+    margin: 5px 0;
 }

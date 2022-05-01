@@ -1,9 +1,0 @@
-.cabecalho {
-    background-color: var(--cinza-escuro);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cabecalho a img {
-    width: 150px;
-}

@@ -9,16 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos-base.css">
-    <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/secao-ebook.css">
+    <link rel="stylesheet" href="css/secao-oque-aprender-ebook.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <title>Página para captação de leads</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <a href="#">
-            <img src="imagens/logo.png" alt="Logotipo da empresa">
-        </a>
-    </header>
     <section class="secao-ebook">
         <img src="imagens/teste2_cricao_ebook.jpg" class="secao-ebook__img-ebook" alt="Imagem do e-book">
         <div class="secao-ebook__div-com-formulario">
@@ -31,25 +27,59 @@
                         Nome*
                     </label>
                     <input type="text" id="nome" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu nome">
+                    <span class="feedback-campo-nome"></span>
                 </div>
                 <div class="secao-ebook__div-com-formulario__form__grupo-form">
                     <label for="email">
                         E-mail*
                     </label>
                     <input type="email" id="email" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu e-mail">
+                    <span class="feedback-campo-email"></span>
                 </div>
                 <div class="secao-ebook__div-com-formulario__form__grupo-form">
                     <label for="telefone">
                         Telefone*
                     </label>
                     <input type="tel" id="telefone" class="secao-ebook__div-com-formulario__form__grupo-form__campo" placeholder="Digite seu telefone">
+                    <span class="feedback-campo-telefone"></span>
                 </div>
-                <button type="submit" class="secao-ebook__div-com-formulario__btn-receber-ebook">
+                <button type="button" class="secao-ebook__div-com-formulario__btn-receber-ebook">
                     Receber e-book
                 </button>
             </form>
         </div>
     </section>
-    <script src="js/animacao-form-img.js"></script>
+    <section class="secao-oque-voce-vai-aprender-nesse-ebook">
+        <h2 class="secao-oque-voce-vai-aprender-nesse-ebook__titulo">
+            O que você vai aprender neste e-book?
+        </h2>
+        <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados">
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+            <div class="secao-oque-voce-vai-aprender-nesse-ebook__aprendizados__aprendizado">
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos</p>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <span>
+            2022 - Todos os direitos reservados
+        </span>
+    </footer>
+    <script src="https://kit.fontawesome.com/6edfa41fd4.js" crossorigin="anonymous"></script>
+    <script src="js/valida-formulario.js"></script>
 </body>
 </html>
